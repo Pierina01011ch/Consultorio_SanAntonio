@@ -1,5 +1,5 @@
 package vista;
-
+//Gestión de médicos
 import conexion.ConexionBD;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
