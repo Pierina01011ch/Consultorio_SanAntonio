@@ -1,5 +1,5 @@
 package vista;
-
+//Desarrollo del módulo de gestión de pacientes
 import conexion.ConexionBD;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
