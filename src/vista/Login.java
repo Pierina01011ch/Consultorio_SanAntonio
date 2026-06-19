@@ -1,5 +1,5 @@
 package vista;
-
+//Desarrollo del sistema de autenticación de usuarios
 import conexion.ConexionBD;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
