@@ -418,12 +418,10 @@ public class FrmPaciente extends javax.swing.JFrame {
 
 }
     }//GEN-LAST:event_btnActualizarActionPerformed
-
+//Corrección de validaciones y manejo de errores
     private void btnEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarActionPerformed
-        int opcion = JOptionPane.showConfirmDialog(
-            this,
-            "¿Desea eliminar este paciente?",
-            "Confirmar eliminación",
+        int opcion = JOptionPane.showConfirmDialog(this,
+            "¿Desea eliminar este paciente?", "Confirmar eliminación",
             JOptionPane.YES_NO_OPTION);
 
     if (opcion != JOptionPane.YES_OPTION) {
