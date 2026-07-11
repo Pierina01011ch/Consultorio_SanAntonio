@@ -38,7 +38,6 @@ public class ConexionBD {
             if (conexion != null && !conexion.isClosed()) {
 
                 conexion.close();
-
                 System.out.println("Conexión cerrada correctamente");
             }
 
